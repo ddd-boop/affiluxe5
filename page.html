@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
    
     <head>
@@ -12,16 +12,13 @@
         <meta name="theme-color" content="black">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=2, viewport-fit=cover">    
        <style>
-	       @media (max-width:310px ) {
-		       .contain{
-			       height:520px;
-		       }
-	       }
          html{
      background-color: rgb(158, 157, 157);
+     height: 100%;
  }
 body{
         user-zoom:10% !important;
+        height: 100%;
          overflow:hidden;
         margin: 0;
          font-size: 1rem;
@@ -125,20 +122,23 @@ width: 1px;
     background: repeating-linear-gradient(45deg, white, black, transparent 463px);
     position: relative;
     bottom: 10px;
-    height: 630px;
+    height: 200% !important;
     width: 101%;
     border: 2px solid transparent;
     padding-top: 20px;
+    padding-left:5px ;
+    padding-right: 5px;
 }
 .ref-container{
     width: 90%;
-    height: 100px;
-    background:transparent;
-    border: 3px solid rgb(5, 5, 5);
-    border-radius: 12px;
-    margin: 0 auto;
-    position: relative;
-    top: 4px;
+        height: 122px;
+        background: transparent;
+        border: 3px solid rgb(5, 5, 5);
+        border-radius: 12px;
+        margin: 0 auto;
+        position: relative;
+        top: 4px;
+        padding-top: 6px;   
 }
 .ref-words{
     width: 246px;
@@ -497,7 +497,7 @@ img{
         right: 1322px;
         z-index: 1;
         height: 110%;
-        width: 220px;
+        width: 210px;
         animation-name: menu;
         animation-fill-mode: forwards;
         animation-duration: 0.09s;
@@ -691,7 +691,7 @@ button{
         right: -3px; 
         background:repeating-linear-gradient(11deg, grey, black 781px) !important;
         overflow: hidden !important;
-        padding: 3px;
+        padding: 14px;
 }
  
 .d-head{
@@ -1247,7 +1247,7 @@ img{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 .pay-container{
-    height: 500px;
+    height: 450px;
     width: 98%;
     margin: 0 auto;
     position: relative;
@@ -1256,7 +1256,7 @@ img{
     overflow:auto;
 }
 .in-1{
-    height: 100px;
+    height: 112px;
     width: 99%;
    position: relative;
    left: 1px;
@@ -1299,14 +1299,14 @@ img{
     float: right;
     position: relative;
     right: 4px;
-    bottom:-5px;
+    bottom:-12px;
     border-radius: 10px;
 }
 .butt-2 {
     float: right;
     position: relative;
     right: 4px;
-    bottom: 30px;
+    bottom: -10px;
     border-radius: 10px;
 }
 .investo{
@@ -1611,7 +1611,7 @@ body{
         border-right-color: transparent;
     }
      .contain{
-         height: 585px !important;
+         height: 585px;
      }
      .con{
          width:99%;
@@ -1799,7 +1799,7 @@ body{
          width: 1px;
      }
      to{
-         width: 140px;
+         width: 130px;
      }
  }
  .with{
@@ -1905,7 +1905,7 @@ button{
     top: 80px;
     z-index: 1;
     height: 100%;
-    width: 220px;
+    width: 210px;
     animation-name: menu;
     animation-fill-mode: forwards;
     animation-duration: 0.09s;
@@ -1963,7 +1963,7 @@ button{
         border-right-color: transparent;
     }
      .contain{
-         height: 560px !important;
+         height: 560px;
      }
      .con{
          width:99%;
@@ -2151,7 +2151,7 @@ button{
          width: 1px;
      }
      to{
-         width: 140px;
+         width: 130px;
      }
  }
  .with{
@@ -2257,7 +2257,7 @@ button{
     top: 80px;
     z-index: 1;
     height: 100%;
-    width: 220px;
+    width: 210px;
     animation-name: menu;
     animation-fill-mode: forwards;
     animation-duration: 0.09s;
@@ -2319,7 +2319,7 @@ button{
          
      }
      .contain{
-         height: 507px !important;
+         height: 507px;
      }
      .con{
          width:99%;
@@ -2502,7 +2502,7 @@ button{
          width: 1px;
      }
      to{
-         width: 140px;
+         width: 130px;
      }
  }
  .with{
@@ -2610,7 +2610,7 @@ button{
     top: 80px;
     z-index: 1;
     height: 103%;
-    width: 220px;
+    width: 210px;
     animation-name: menu;
     animation-fill-mode: forwards;
     animation-duration: 0.09s;
@@ -2662,7 +2662,7 @@ button{
         
     }
     .contain{
-        height: 520px !important;
+        height: 507px;
     }
     .con{
         width:99%;
@@ -2849,7 +2849,7 @@ button{
         width: 1px;
     }
     to{
-        width: 150px;
+        width: 130px;
     }
 }
 .with{
@@ -2957,7 +2957,7 @@ button{
                 top: 80px;
                 z-index: 1;
                 height: 100%;
-                width: 230px;
+                width: 210px;
                 animation-name: menu;
                 animation-fill-mode: forwards;
                 animation-duration: 0.09s;
@@ -3680,7 +3680,7 @@ document.getElementById("menu").onclick=function() {
 
 
 document.getElementById("notifications").onclick=function() {
-    document.getElementById("notify").style.height="120%";
+    document.getElementById("notify").style.height="109%";
 };
 
  
@@ -3690,25 +3690,25 @@ document.getElementById("notifications").onclick=function() {
 
 
 document.getElementById("invest").onclick=function() {
-    document.getElementById("invester").style.height="120%";
+    document.getElementById("invester").style.height="109%";
 };
 
 
 document.getElementById("spin").onclick=function() {
-    document.getElementById("spin-to").style.height="120%";
+    document.getElementById("spin-to").style.height="109%";
     alert("This Feature Is Not Yet Ready!") ;
      
 };
 
 
 document.getElementById("sponsor").onclick=function() {
-    document.getElementById("sponsorer").style.height="120%";
+    document.getElementById("sponsorer").style.height="109%";
 };
 
 
 
 document.getElementById("daily").onclick=function() {
-    document.getElementById("dailly").style.height = "120%";
+    document.getElementById("dailly").style.height = "109%";
  
 };
 
@@ -3720,13 +3720,13 @@ document.getElementById("game").onclick= function(){
 
 document.getElementById("withdraw").onclick = function () {
 alert("withdrawal can not be made until futher notice if you wish to continue click OK")
-    document.getElementById("withdrawal").style.height="120%";
+    document.getElementById("withdrawal").style.height="109%";
 };
 
 
 
 document.getElementById("upgrade").onclick=function() {
-    document.getElementById("upgrades").style.height="120%";
+    document.getElementById("upgrades").style.height="109%";
 };
 
  
